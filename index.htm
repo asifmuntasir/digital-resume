@@ -12,6 +12,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- Remixicon CDN Link -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <title>Asif Muntasir | Digital Resume</title>
 </head>
 
@@ -22,7 +24,7 @@
             <h1 class="my-name">
                 Md. Asif Muntasir
             </h1>
-            <div>
+            <div class="info">
                 <p>Full Stack Developer</p>
                 <p>
                     from <span class="country-name">Bangladesh</span>
@@ -31,17 +33,28 @@
             </div>
         </div>
         <ul class="bottom-header">
-            <li class="email">
-                asif.neub1702@gmail.com
-            </li>
-            <li class="github">
-                <a href="" class="github">asifmuntasir</a>
+            <li>
+                <p><i class="ri-mail-line"></i></p>
+                <span>asif.neub1702@gmail.com</span>
             </li>
             <li>
-                <a href="" class="portfolio">asifmuntasir.github.io</a>
+                <p><i class="ri-github-line"></i></p>
+                <a href="https://github.com/asifmuntasir/">asifmuntasir</a>
+            </li>
+            <li>
+                <p><i class="ri-window-2-line"></i></p>
+                <a href="https://asifmuntasir.github.io/">asifmuntasir.github.io</a>
             </li>
         </ul>
     </header>
+
+
+
+    <!-- JavaScript Code -->
+    <script>
+        const date = new Date()
+        document.getElementById('show-date').innerHTML = date.toDateString();
+    </script>
 </body>
 
 </html>

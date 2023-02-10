@@ -26,6 +26,33 @@ body {
     margin-bottom: 50px;
 }
 
+.info {
+    line-height: 1.5;
+}
+
 .country-name {
     color: #157CC2;
+}
+
+.bottom-header {
+    display: flex;
+    justify-content: space-between;
+    color: #157CC2;
+    padding: 1.5rem;
+}
+
+.bottom-header li {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.bottom-header li a {
+    text-decoration: none;
+    /* color: #157CC2; */
+    color: #DDA667;
+}
+
+.bottom-header li p {
+    margin-right: 0.3rem;
 }
